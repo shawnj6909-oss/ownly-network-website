@@ -1,4 +1,4 @@
-import { ArrowRight, Mail, MapPin, CheckCircle, Users, Zap, Target, Shield, RefreshCw, XCircle, AlertTriangle, Tag, Download } from 'lucide-react';
+import { ArrowRight, Mail, MapPin, CheckCircle, Users, Zap, Target, Shield, RefreshCw, XCircle, AlertTriangle, Tag, Download, Sparkles, MessageSquare } from 'lucide-react';
 
 function App() {
   const handleDownload = () => {
@@ -28,7 +28,11 @@ function App() {
                 <Download className="w-4 h-4" />
                 Download
               </button>
-              <a href="#contact" className="bg-slate-900 text-white px-6 py-2 rounded-lg hover:bg-slate-800 transition">Contact Us</a>
+              <a href="#contact" className="text-slate-600 hover:text-slate-900 transition">Contact</a>
+              <a href="#copilot" className="bg-slate-900 text-white px-6 py-2 rounded-lg hover:bg-slate-800 transition flex items-center gap-2">
+                <Sparkles className="w-4 h-4" />
+                Talk to AI Copilot
+              </a>
             </div>
           </div>
         </div>
@@ -45,12 +49,13 @@ function App() {
             Turn your everyday bottlenecks into done-for-you AI workflows that actually ship and make money, without you becoming a tech expert.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#contact" className="bg-slate-900 text-white px-8 py-4 rounded-lg hover:bg-slate-800 transition text-lg font-medium flex items-center justify-center gap-2">
-              Get in Touch
-              <ArrowRight className="w-5 h-5" />
+            <a href="#copilot" className="bg-slate-900 text-white px-8 py-4 rounded-lg hover:bg-slate-800 transition text-lg font-medium flex items-center justify-center gap-2">
+              <Sparkles className="w-5 h-5" />
+              Talk to Our AI Copilot
             </a>
-            <a href="mailto:admin@ownly.network" className="bg-white text-slate-900 px-8 py-4 rounded-lg border-2 border-slate-900 hover:bg-slate-50 transition text-lg font-medium">
-              Book a Consultation
+            <a href="#services" className="bg-white text-slate-900 px-8 py-4 rounded-lg border-2 border-slate-900 hover:bg-slate-50 transition text-lg font-medium flex items-center justify-center gap-2">
+              Learn More
+              <ArrowRight className="w-5 h-5" />
             </a>
           </div>
         </div>
@@ -201,11 +206,9 @@ function App() {
           <div className="text-center mt-12">
             <p className="text-xl text-slate-600 mb-6">Ready to see where AI can help your business?</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="#contact" className="bg-slate-900 text-white px-8 py-4 rounded-lg hover:bg-slate-800 transition text-lg font-medium">
-                Get in Touch
-              </a>
-              <a href="mailto:admin@ownly.network" className="bg-white text-slate-900 px-8 py-4 rounded-lg border-2 border-slate-900 hover:bg-slate-50 transition text-lg font-medium">
-                Book a Consultation
+              <a href="#copilot" className="bg-slate-900 text-white px-8 py-4 rounded-lg hover:bg-slate-800 transition text-lg font-medium flex items-center justify-center gap-2">
+                <Sparkles className="w-5 h-5" />
+                Talk to Our AI Copilot
               </a>
             </div>
           </div>
@@ -328,14 +331,74 @@ function App() {
         </div>
       </section>
 
+      {/* AI Copilot Section */}
+      <section id="copilot" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-slate-900 to-slate-800">
+        <div className="max-w-7xl mx-auto">
+          <div className="text-center mb-10">
+            <div className="inline-flex items-center gap-2 bg-blue-600/10 border border-blue-500/20 rounded-full px-4 py-1.5 mb-6">
+              <Sparkles className="w-4 h-4 text-blue-400" />
+              <span className="text-sm font-medium text-blue-400">AI-Powered</span>
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">Talk to Our AI Copilot</h2>
+            <p className="text-xl text-slate-300 max-w-2xl mx-auto mb-2">
+              This isn't a typical chatbot. It's an AI copilot that understands your business challenges and helps you find the right automation solution.
+            </p>
+            <p className="text-base text-slate-400 max-w-xl mx-auto">
+              Ask about our services, share your workflows, see relevant case studies, or book a consultation — all in one conversation.
+            </p>
+          </div>
+
+          <div className="max-w-lg mx-auto">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-slate-700" style={{ height: '600px' }}>
+              <iframe
+                src="https://sales-assistant-chatbot-b9pqk8y5.devinapps.com"
+                title="Ownly AI Copilot"
+                className="w-full h-full border-0"
+                allow="clipboard-write"
+              />
+            </div>
+            <div className="flex items-center justify-center gap-6 mt-6">
+              <div className="flex items-center gap-2 text-slate-400">
+                <MessageSquare className="w-4 h-4" />
+                <span className="text-sm">Ask anything about our services</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6 mt-12 max-w-3xl mx-auto">
+            <div className="text-center">
+              <div className="w-10 h-10 bg-blue-600/20 rounded-lg flex items-center justify-center mx-auto mb-3">
+                <Target className="w-5 h-5 text-blue-400" />
+              </div>
+              <h4 className="font-semibold text-white mb-1">Get Qualified</h4>
+              <p className="text-sm text-slate-400">Share your needs and get a personalized recommendation</p>
+            </div>
+            <div className="text-center">
+              <div className="w-10 h-10 bg-blue-600/20 rounded-lg flex items-center justify-center mx-auto mb-3">
+                <Zap className="w-5 h-5 text-blue-400" />
+              </div>
+              <h4 className="font-semibold text-white mb-1">See Case Studies</h4>
+              <p className="text-sm text-slate-400">Ask to see examples relevant to your industry</p>
+            </div>
+            <div className="text-center">
+              <div className="w-10 h-10 bg-blue-600/20 rounded-lg flex items-center justify-center mx-auto mb-3">
+                <Users className="w-5 h-5 text-blue-400" />
+              </div>
+              <h4 className="font-semibold text-white mb-1">Book a Call</h4>
+              <p className="text-sm text-slate-400">Schedule a consultation right in the chat</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h3 className="text-sm font-semibold text-blue-600 uppercase tracking-wide mb-2">Contact</h3>
-            <h2 className="text-4xl font-bold text-slate-900 mb-4">Get in Touch</h2>
+            <h2 className="text-4xl font-bold text-slate-900 mb-4">Other Ways to Reach Us</h2>
             <p className="text-xl text-slate-600 max-w-2xl mx-auto">
-              For help with orders, billing, account access, or technical issues
+              Prefer email or need to reach us directly?
             </p>
           </div>
 
