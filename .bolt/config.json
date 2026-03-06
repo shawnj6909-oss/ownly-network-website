@@ -1,8 +1,0 @@
-{
-  "deploy": {
-    "github": {
-      "enabled": true,
-      "repository": "ownly-network-website"
-    }
-  }
-}
