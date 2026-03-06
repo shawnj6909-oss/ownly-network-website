@@ -1,16 +1,7 @@
-import { ArrowRight, Mail, MapPin, CheckCircle, Users, Zap, Target, Shield, RefreshCw, XCircle, AlertTriangle, Tag, Download } from 'lucide-react';
+import { ArrowRight, Mail, MapPin, CheckCircle, Users, Zap, Target, Shield, RefreshCw, XCircle, AlertTriangle, Tag } from 'lucide-react';
 import { AnimatedLogo } from './components/AnimatedLogo';
 
 function App() {
-  const handleDownload = () => {
-    const link = document.createElement('a');
-    link.href = '/ownly-network-dist.zip';
-    link.download = 'ownly-network-dist.zip';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
@@ -26,10 +17,6 @@ function App() {
               <a href="#process" className="text-slate-600 hover:text-slate-900 transition">Process</a>
               <a href="#about" className="text-slate-600 hover:text-slate-900 transition">About</a>
               <a href="#policies" className="text-slate-600 hover:text-slate-900 transition">Policies</a>
-              <button onClick={handleDownload} className="text-slate-600 hover:text-slate-900 transition flex items-center gap-2">
-                <Download className="w-4 h-4" />
-                Download
-              </button>
               <a href="#contact" className="bg-slate-900 text-white px-6 py-2 rounded-lg hover:bg-slate-800 transition">Contact Us</a>
             </div>
           </div>
