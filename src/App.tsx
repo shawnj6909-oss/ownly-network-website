@@ -378,7 +378,6 @@ function App() {
               <h4 className="font-semibold mb-4">Contact</h4>
               <ul className="space-y-2 text-slate-400">
                 <li>admin@ownly.network</li>
-                <li>+1 917-742-9110</li>
                 <li>New York, NY 10018</li>
               </ul>
             </div>
