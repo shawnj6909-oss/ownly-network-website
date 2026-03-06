@@ -17,11 +17,9 @@ function App() {
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b border-slate-200 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center gap-1">
-              <h1 className="text-2xl font-bold text-slate-900">Ownly</h1>
-              <div className="w-10 h-5 flex items-center">
-                <AnimatedLogo size="small" />
-              </div>
+            <div className="flex flex-col items-center">
+              <AnimatedLogo size="small" />
+              <h1 className="text-xs font-semibold text-slate-700 tracking-wide -mt-1">Ownly</h1>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#services" className="text-slate-600 hover:text-slate-900 transition">Services</a>
