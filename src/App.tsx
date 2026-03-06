@@ -1,4 +1,4 @@
-import { ArrowRight, Mail, Phone, MapPin, CircleCheck as CheckCircle, Users, Zap, Target, Shield, RefreshCw, Circle as XCircle, TriangleAlert as AlertTriangle, Tag, Download } from 'lucide-react';
+import { ArrowRight, Mail, MapPin, CheckCircle, Users, Zap, Target, Shield, RefreshCw, XCircle, AlertTriangle, Tag, Download } from 'lucide-react';
 
 function App() {
   const handleDownload = () => {
