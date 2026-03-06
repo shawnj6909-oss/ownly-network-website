@@ -1,4 +1,4 @@
-# Ownly Network Website
+# Ownly Website
 
 A modern React + TypeScript website built with Vite.
 

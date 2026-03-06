@@ -17,7 +17,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <h1 className="text-2xl font-bold text-slate-900">Ownly Network</h1>
+              <h1 className="text-2xl font-bold text-slate-900">Ownly</h1>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#services" className="text-slate-600 hover:text-slate-900 transition">Services</a>
@@ -217,13 +217,13 @@ function App() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <h3 className="text-sm font-semibold text-blue-600 uppercase tracking-wide mb-2">About</h3>
-            <h2 className="text-4xl font-bold text-slate-900">Ownly Network LLC</h2>
+            <h2 className="text-4xl font-bold text-slate-900">Ownly</h2>
           </div>
 
           <div className="max-w-3xl mx-auto">
             <div className="bg-slate-50 rounded-xl p-8">
               <p className="text-lg text-slate-600 mb-6">
-                Ownly Network LLC specializes in AI automation consulting and setup, helping businesses scale their operations without increasing headcount. Based in New York, we work with companies across industries to identify automation opportunities, implement custom AI solutions, and provide ongoing support.
+                Ownly specializes in AI automation consulting and setup, helping businesses scale their operations without increasing headcount. Based in New York, we work with companies across industries to identify automation opportunities, implement custom AI solutions, and provide ongoing support.
               </p>
               <p className="text-lg text-slate-600 mb-6">
                 Our approach is methodical and low-risk. We take the time to understand your business before recommending solutions, ensuring that every automation we implement delivers real value and integrates seamlessly with your existing processes.
@@ -367,7 +367,7 @@ function App() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <h3 className="text-xl font-bold mb-4">Ownly Network</h3>
+              <h3 className="text-xl font-bold mb-4">Ownly</h3>
               <p className="text-slate-400">AI automation consulting and setup to help your business scale.</p>
             </div>
             <div>
@@ -395,7 +395,7 @@ function App() {
             </div>
           </div>
           <div className="border-t border-slate-800 pt-8 text-center text-slate-400">
-            <p>&copy; 2026 Ownly Network LLC. All rights reserved.</p>
+            <p>&copy; 2026 Ownly. All rights reserved.</p>
           </div>
         </div>
       </footer>
