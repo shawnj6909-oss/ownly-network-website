@@ -9,8 +9,8 @@ export function AnimatedLogo({ size = 'default' }: AnimatedLogoProps) {
     return (
       <svg
         viewBox="0 0 260 130"
-        width="96"
-        height="48"
+        width="120"
+        height="60"
         xmlns="http://www.w3.org/2000/svg">
         <defs>
           <linearGradient id="pillGrad-s" x1="0%" y1="0%" x2="100%" y2="0%">

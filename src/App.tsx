@@ -19,7 +19,7 @@ function App() {
           <div className="flex justify-between items-center h-16">
             <div className="flex flex-col items-center">
               <AnimatedLogo size="small" />
-              <h1 className="text-xs font-semibold text-slate-700 tracking-wide -mt-1">Ownly</h1>
+              <h1 className="text-sm font-bold text-slate-900 tracking-wide -mt-1">Ownly</h1>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#services" className="text-slate-600 hover:text-slate-900 transition">Services</a>
