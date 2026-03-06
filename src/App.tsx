@@ -38,7 +38,7 @@ function App() {
               Get in Touch
               <ArrowRight className="w-5 h-5" />
             </a>
-            <a href="mailto:admin@ownly.network" className="bg-white text-slate-900 px-8 py-4 rounded-lg border-2 border-slate-900 hover:bg-slate-50 transition text-lg font-medium">
+            <a href="https://zbooking.us/7mlDn" target="_blank" rel="noopener noreferrer" className="bg-white text-slate-900 px-8 py-4 rounded-lg border-2 border-slate-900 hover:bg-slate-50 transition text-lg font-medium">
               Book a Consultation
             </a>
           </div>
@@ -193,7 +193,7 @@ function App() {
               <a href="#contact" className="bg-slate-900 text-white px-8 py-4 rounded-lg hover:bg-slate-800 transition text-lg font-medium">
                 Get in Touch
               </a>
-              <a href="mailto:admin@ownly.network" className="bg-white text-slate-900 px-8 py-4 rounded-lg border-2 border-slate-900 hover:bg-slate-50 transition text-lg font-medium">
+              <a href="https://zbooking.us/7mlDn" target="_blank" rel="noopener noreferrer" className="bg-white text-slate-900 px-8 py-4 rounded-lg border-2 border-slate-900 hover:bg-slate-50 transition text-lg font-medium">
                 Book a Consultation
               </a>
             </div>
