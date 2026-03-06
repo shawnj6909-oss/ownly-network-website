@@ -339,7 +339,7 @@ function App() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-slate-50 rounded-xl p-8 text-center">
               <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Mail className="w-6 h-6 text-blue-600" />
@@ -347,16 +347,6 @@ function App() {
               <h3 className="text-lg font-bold text-slate-900 mb-2">Email</h3>
               <a href="mailto:admin@ownly.network" className="text-blue-600 hover:text-blue-700 transition">
                 admin@ownly.network
-              </a>
-            </div>
-
-            <div className="bg-slate-50 rounded-xl p-8 text-center">
-              <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Phone className="w-6 h-6 text-blue-600" />
-              </div>
-              <h3 className="text-lg font-bold text-slate-900 mb-2">Phone</h3>
-              <a href="tel:+19177429110" className="text-blue-600 hover:text-blue-700 transition">
-                +1 917-742-9110
               </a>
             </div>
 
