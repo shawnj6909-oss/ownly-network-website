@@ -355,7 +355,7 @@ function App() {
                 <MapPin className="w-6 h-6 text-blue-600" />
               </div>
               <h3 className="text-lg font-bold text-slate-900 mb-2">Location</h3>
-              <p className="text-slate-600">New York, NY 10034</p>
+              <p className="text-slate-600">New York, NY 10018</p>
               <p className="text-slate-600">United States</p>
             </div>
           </div>
@@ -390,7 +390,7 @@ function App() {
               <ul className="space-y-2 text-slate-400">
                 <li>admin@ownly.network</li>
                 <li>+1 917-742-9110</li>
-                <li>New York, NY 10034</li>
+                <li>New York, NY 10018</li>
               </ul>
             </div>
           </div>
